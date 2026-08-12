@@ -1,0 +1,14 @@
+await db.run(`CREATE TABLE IF NOT EXISTS users(
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT,
+  email TEXT,
+  password TEXT,
+  role TEXT
+)`);
+
+npm install
+npm install express --save 
+npm install sqlite --save 
+npm install sqlite3 --save  
+npm install -g nodemon 
+npm install bcrypt --save
